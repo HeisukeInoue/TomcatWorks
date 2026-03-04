@@ -1,0 +1,6 @@
+services:
+  tomcat-learning:
+    build: .
+    container_name: tomcat-learning
+    ports:
+      - "8080:8080"
